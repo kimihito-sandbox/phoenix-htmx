@@ -3,6 +3,7 @@
 import "../css/app.css"
 
 import "htmx.org";
+import Alpine from "alpinejs";
 
 // If you want to use Phoenix channels, run `mix help phx.gen.channel`
 // to get started and then uncomment the line below.
@@ -45,3 +46,4 @@ liveSocket.connect()
 // >> liveSocket.disableLatencySim()
 window.liveSocket = liveSocket
 
+Alpine.start();
