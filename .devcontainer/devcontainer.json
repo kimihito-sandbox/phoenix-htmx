@@ -6,5 +6,8 @@
     "extensions": [
       "JakeBecker.elixir-ls",
       "phoenixframework.phoenix"
+    ],
+    "forwardPorts": [
+      4000
     ]
 }

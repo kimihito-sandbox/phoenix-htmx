@@ -95,6 +95,8 @@ defmodule PhoenixHtmxWeb do
       # Import basic rendering functionality (render, render_layout, etc)
       import Phoenix.View
 
+      import Phoenix.Component
+
       import PhoenixHtmxWeb.ErrorHelpers
       import PhoenixHtmxWeb.Gettext
       alias PhoenixHtmxWeb.Router.Helpers, as: Routes
